@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.5.1)  3 MAY 2024 16:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.5.1)  7 SEP 2024 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,7 +944,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[8]) (Math/快速冪.cpp) (Math/模逆元.cpp) (Math/簡單博弈論.cpp) (Math/CRT.tex
+[8]) (Math/快速冪.cpp) (Math/矩陣快速冪.cpp) (Math/模逆元.cpp) (Math/簡單博弈論.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[9]) (Math/CRT.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -991,7 +997,7 @@ l.14 M_
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72     \subsection{卡特蘭數}
+l.74     \subsection{卡特蘭數}
                           
 ? 
 (Math/卡特蘭數.tex
@@ -1005,19 +1011,10 @@ l.1 C^
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 
+l.76 
      
 ? 
 (Geometry/basic.cpp
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1029,20 +1026,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(Other/backpack.cpp
 
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[11]) (Other/cmp.cpp) (Other/python.py)
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[12])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1051,7 +1035,30 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
+[11]) (Other/backpack.cpp) (Other/cmp.cpp) (Other/python.py
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[12])
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
 [13
+
+])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[14
 
 ]
 
@@ -1059,7 +1066,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[14] (codebook.aux)
+[15] (codebook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1070,12 +1077,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20135 strings out of 409617
- 443219 string characters out of 5774217
- 3182191 words of memory out of 5000000
- 41806 multiletter control sequences out of 15000+600000
+ 20151 strings out of 409617
+ 443419 string characters out of 5774217
+ 3189191 words of memory out of 5000000
+ 41819 multiletter control sequences out of 15000+600000
  560182 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,12n,93p,400b,1651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on codebook.pdf (14 pages).
+Output written on codebook.pdf (15 pages).
